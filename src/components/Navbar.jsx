@@ -105,10 +105,10 @@ function Navbar() {
             </li>
           </ul>
           <div className="navbar__buttons">
-            <Link className="navbar__buttons__sign-in" href="/">
+            <Link className="navbar__buttons__sign-in" href="/signin">
               Sign In
             </Link>
-            <Link className="navbar__buttons__register" href="/">
+            <Link className="navbar__buttons__register" href="/signup">
               Register
             </Link>
           </div>
