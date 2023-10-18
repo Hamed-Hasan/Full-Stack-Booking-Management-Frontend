@@ -1,13 +1,13 @@
 import "../dist/styles.css";
 import { useEffect } from "react";
 import { Provider } from "react-redux";
-import store from "../redux/store";
 import Head from "next/head";
 import "tailwindcss/tailwind.css";
 import Navbar from "@/components/Navbar";
 import { AppProps } from "next/app";
 import { DashboardLayout } from "@/dashboard/Layout";
 import { useRouter } from "next/router";
+import { store } from "@/redux/store";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();

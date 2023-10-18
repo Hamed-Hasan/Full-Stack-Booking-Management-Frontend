@@ -53,7 +53,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -98,7 +98,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link  href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -141,7 +141,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link  href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -184,7 +184,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link  href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -227,7 +227,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link  href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -270,7 +270,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollhref(0, 0)} href="/">
+                    <Link href="/">
                       Book Ride
                     </Link>
                   </div>
@@ -278,6 +278,8 @@ function Models() {
               </div>
             </div>
           </div>
+
+          
         </div>
         <div className="book-banner">
           <div className="book-banner__overlay"></div>
