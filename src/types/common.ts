@@ -136,7 +136,7 @@ export interface IMeta {
     endDate: Date;
     startTime: string;
     endTime: string;
-    daysOfWeek: any;
+    daysOfWeek: DaysOfWeek;
     createdAt: Date;
     updatedAt: Date;
   }
@@ -168,6 +168,18 @@ export interface IMeta {
     read: boolean;
     createdAt: Date;
   }
+
+
+  interface DaysOfWeek {
+    sunday: boolean;
+    monday: boolean;
+    tuesday: boolean;
+    wednesday: boolean;
+    thursday: boolean;
+    friday: boolean;
+    saturday: boolean;
+  }
+  
   
   enum UserRole {
     user = "user",
