@@ -8,7 +8,7 @@ import CarImage5 from "../images/cars-big/benz-box.png";
 import CarImage6 from "../images/cars-big/passat-box.png";
 import Link from "next/link";
 import Image from "next/image";
-// import { Link } from "react-router-dom";
+
 
 function Models() {
   return (
@@ -17,6 +17,7 @@ function Models() {
         <HeroPages name="Vehicle Models" />
         <div className="container">
           <div className="models-div">
+
             <div className="models-div__box">
               <div className="models-div__box__Image">
                 <Image src={CarImage1} alt="car_Image" />
@@ -59,6 +60,8 @@ function Models() {
                 </div>
               </div>
             </div>
+
+
 
             <div className="models-div__box">
               <div className="models-div__box__Image">
