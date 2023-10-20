@@ -1,19 +1,12 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import CarImage1 from "../images/cars-big/audi-box.png";
-import CarImage2 from "../images/cars-big/golf6-box.png";
-import CarImage3 from "../images/cars-big/benz.jpg";
-import CarImage4 from "../images/cars-big/bmw-box.png";
-import CarImage5 from "../images/cars-big/benz-box.png";
-import CarImage6 from "../images/cars-big/passat-box.png";
-
-import Image from "next/image";
 import { useCarServicesQuery, useDeleteCarServiceMutation } from "@/redux/api/carService/carServiceApi";
 import { useDebounced } from "@/redux/hooks";
 import { useEffect, useState } from "react";
 import { IService } from "@/types";
 import Loading from "@/components/Loading";
 import CarItem from "@/components/CarItem";
+import SearchBar from "@/components/SearchBar";
 
 
 
@@ -61,7 +54,15 @@ if(isLoading){
       <section className="models-section">
         <HeroPages name="Vehicle Models" />
         <div className="container">
+
+        <div className="max-w-2xl mx-auto">
+
+
+</div>
+<SearchBar/>
+
         <div className="models-div">
+          
             {data.map((car, index) => (
               <CarItem key={index} car={car} />
             ))}
@@ -81,6 +82,8 @@ if(isLoading){
             </div>
           </div>
         </div>
+
+        
         <Footer />
       </section>
     </>

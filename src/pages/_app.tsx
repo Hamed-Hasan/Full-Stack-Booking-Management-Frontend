@@ -18,6 +18,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       document.documentElement.style.fontSize = "90%";
     } else {
       document.documentElement.style.fontSize = "62.5%";
+    
+      const searchBar = document.querySelector('.search-bar') as HTMLElement;
+      if (searchBar) {
+        searchBar.style.fontSize = '90%';
+      }
     }
   }, [isDashboard]);
 

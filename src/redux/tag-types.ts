@@ -1,36 +1,21 @@
-// Define an enum for tag types
 export enum tagTypes {
   user = "user",
   admin = "admin",
-  superAdmin = "superAdmin",
-  profile = "profile",
-  service = "service",
-  image = "image",
-  serviceCategory = "serviceCategory",
-  booking = "booking",
-  review = "review",
-  cartItem = "cartItem",
-  availability = "availability",
-  blogPost = "blogPost",
+  package = "package",
   feedback = "feedback",
-  notification = "notification",
+  booking = 'booking',
+  blog = 'blog',
+  faq = 'faq',
+  rating = 'rating',
 }
 
-// Create an array with all tag types
 export const tagTypesList = [
   tagTypes.user,
   tagTypes.admin,
-  tagTypes.superAdmin,
-  tagTypes.profile,
-  tagTypes.service,
-  tagTypes.image,
-  tagTypes.serviceCategory,
-  tagTypes.booking,
-  tagTypes.review,
-  tagTypes.cartItem,
-  tagTypes.availability,
-  tagTypes.blogPost,
+  tagTypes.package,
   tagTypes.feedback,
-  tagTypes.notification,
+  tagTypes.booking,
+  tagTypes.blog,
+  tagTypes.faq,
+  tagTypes.rating,
 ];
-
